@@ -6,8 +6,7 @@ public class APCalendar {
         return four && (!hundred || fourHundred);
 
     }
-
-    public static int numberofLeapYears(int year1, int year2) {
+    public static int numberOfLeapYears(int year1, int year2) {
         int count = 0;
         for (int i = year1; i <= year2; i++)
             if (isLeapYear(i))
